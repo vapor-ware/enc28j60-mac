@@ -10,7 +10,7 @@ There are two files to accomplish this, the actual Python script and a unit file
 Copy file enc28j60_mac.service to:
 ```
 /lib/systemd/system
-'''
+```
 
 Copy file Set_ENC28J60_MAC.py to:
 ```
@@ -32,7 +32,7 @@ Copy the file MAC_Read.py to:
 ```
 /home/pi
 ```
-We will use that script later to verify the MAC address was assigned to eth0.
+We will use this script later to verify the MAC address was assigned to eth0.
 
 Reboot:
 ```
