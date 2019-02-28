@@ -45,4 +45,8 @@ ifconfig
 sudo python MAC_Read.py
 ```
 
-Hopefully what was return buy MAC_read.py matches what is shown for eth0 in ifconfig
+Hopefully what was returned buy MAC_read.py matches what is shown for eth0 in ifconfig.  If for some reason the MAC addresses do
+no match, check the status of our service for errors:
+```
+sudo systemctl status enc28j60_mac.service
+```
